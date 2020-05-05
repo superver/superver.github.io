@@ -1,40 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>蔚泪卿&#39;s Wiki</title>
   
-  
+  <subtitle>广漂老男孩</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2020-05-05T02:55:09.738Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://superver.github.io/"/>
+  <updated>2020-05-05T07:25:45.633Z</updated>
+  <id>https://superver.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Gemini</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/wiki/hello-world/"/>
-    <id>http://yoursite.com/wiki/hello-world/</id>
-    <published>2020-05-05T02:55:09.738Z</published>
-    <updated>2020-05-05T02:55:09.738Z</updated>
+    <title>life is long long journey</title>
+    <link href="https://superver.github.io/wiki/life/%E7%94%9F%E6%B4%BB_%E6%84%9F%E6%82%9F/"/>
+    <id>https://superver.github.io/wiki/life/%E7%94%9F%E6%B4%BB_%E6%84%9F%E6%82%9F/</id>
+    <published>2020-05-05T06:46:10.069Z</published>
+    <updated>2020-05-05T07:25:45.633Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<ul><li>生活是一段长长的旅行</li></ul><p>生活是一段奇妙的旅行，每一处风景都是回忆 </p><p><img src="/images/about/life-1.jpg" alt="images"></p><p>即使你不在我身边，我也要用我的眼睛，帮你问候泸沽湖的旖旎风光。</p><p>旅行不在乎终点，而是在意途中的人和事，还有那些完美的记忆和景色。</p><p>青春随着年纪的长大一切都渐行渐远，充斥着柴米油盐</p><p><img src="/images/about/life-2.jpg" alt="images"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;ul&gt;
+&lt;li&gt;生活是一段长长的旅行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;生活是一段奇妙的旅行，每一处风景都是回忆 &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/about/life-1.jpg&quot; alt=&quot;images&quot;&gt;&lt;/p&gt;
+&lt;p&gt;即使你不在我身边，我也要用我的眼睛，帮你
       
     
     </summary>
     
     
+      <category term="life" scheme="https://superver.github.io/categories/life/"/>
+    
+    
+      <category term="life" scheme="https://superver.github.io/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx模块配置</title>
+    <link href="https://superver.github.io/wiki/blog/nginx/nginx_php-fpm_%E9%85%8D%E7%BD%AE/"/>
+    <id>https://superver.github.io/wiki/blog/nginx/nginx_php-fpm_%E9%85%8D%E7%BD%AE/</id>
+    <published>2020-05-05T06:02:56.652Z</published>
+    <updated>2020-05-05T06:45:03.395Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>server配置<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">loction.\&#123;</span><br><span class="line">    fast_cgi_param : inclue fast-params;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;server配置&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="https://superver.github.io/categories/blog/"/>
+    
+      <category term="nginx" scheme="https://superver.github.io/categories/blog/nginx/"/>
+    
+    
+      <category term="nginx" scheme="https://superver.github.io/tags/nginx/"/>
+    
+      <category term="linux" scheme="https://superver.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>php_常用函数</title>
+    <link href="https://superver.github.io/wiki/blog/php/php_%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/"/>
+    <id>https://superver.github.io/wiki/blog/php/php_%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</id>
+    <published>2020-05-05T05:57:22.091Z</published>
+    <updated>2020-05-05T07:01:48.498Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>扩展函数常<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array_coloumn($arr,$index,$key);</span><br></pre></td></tr></table></figure></li></ul><ul><li><p>php常用算法-冒泡</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">BubbleSort</span><span class="params">($arr)</span></span>&#123;</span><br><span class="line">   <span class="keyword">if</span>(<span class="keyword">empty</span>($arr) || count($arr)&lt;=<span class="number">1</span> ) <span class="keyword">return</span> $arr;</span><br><span class="line">   </span><br><span class="line">   $count = count($arr);</span><br><span class="line">   $jmax     = $count <span class="number">-1</span>;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">for</span>($i=<span class="number">0</span>;$i&lt;$count,$i++)&#123;</span><br><span class="line">       <span class="keyword">for</span>($j=$i;$j&lt;$jmax;$j++)&#123;</span><br><span class="line">           <span class="keyword">if</span>($arr[$j]&gt;$arr[$i])&#123;</span><br><span class="line">              <span class="comment">//交换位置 </span></span><br><span class="line">              $tmp = $arr[$j];</span><br><span class="line">              $arr[$j] = $arr[$i];</span><br><span class="line">              $arr[$i] = $tmp; </span><br><span class="line">           &#125;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> $arr;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>php常用算法-快速</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">quickSort</span><span class="params">($arr)</span></span>&#123;</span><br><span class="line">   <span class="keyword">if</span>(<span class="keyword">empty</span>($arr) || count($arr)&lt;=<span class="number">1</span> ) <span class="keyword">return</span> $arr;</span><br><span class="line">   </span><br><span class="line">   $mid =$arr[<span class="number">0</span>];</span><br><span class="line">   $len =count($arr);</span><br><span class="line">   </span><br><span class="line">   $right = $left = [];</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">for</span>($i=<span class="number">0</span>;$i&lt;$arr;$i++)&#123;</span><br><span class="line">       <span class="keyword">if</span>($arr[$i]&gt;$mid)&#123;</span><br><span class="line">          $right[] = $arr[$i];</span><br><span class="line">       &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">           $left[] = $arr[$i];</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   $right = quickSort($right);</span><br><span class="line">   $left  = quickSort($left);</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">return</span> array_merge($right,<span class="keyword">array</span>($mid),$right);   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;扩展函数常&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;p
+      
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="https://superver.github.io/categories/blog/"/>
+    
+      <category term="php" scheme="https://superver.github.io/categories/blog/php/"/>
+    
+    
+      <category term="php" scheme="https://superver.github.io/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【建强】wiki 集合</title>
+    <link href="https://superver.github.io/wiki/index/"/>
+    <id>https://superver.github.io/wiki/index/</id>
+    <published>2020-05-05T04:10:59.939Z</published>
+    <updated>2020-05-05T06:43:54.660Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="blog"><a href="#blog" class="headerlink" title="@blog"></a>@<a href="https://github.com/jianqiangsong/payment"><code>blog</code></a></h2><p>php版聚合支付</p><h2 id="blog-1"><a href="#blog-1" class="headerlink" title="@blog"></a>@<a href="https://github.com/jianqiangsong/yii-important"><code>blog</code></a></h2><p>Yii框架干货集合</p><h2 id="blog-2"><a href="#blog-2" class="headerlink" title="@blog"></a>@<a href="https://github.com/jianqiangsong/easy-tips"><code>blog</code></a></h2><p>php知识点集合 🐘</p><ul><li><a href="http://easy-tips.tigerb.cn"><code>A little Tips in my Code Career with PHP 🐘</code></a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;blog&quot;&gt;&lt;a href=&quot;#blog&quot; class=&quot;headerlink&quot; title=&quot;@blog&quot;&gt;&lt;/a&gt;@&lt;a href=&quot;https://github.com/jianqiangsong/payment&quot;&gt;&lt;code&gt;blog&lt;/code&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>php_引用计数与gc</title>
+    <link href="https://superver.github.io/wiki/blog/php/php_%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E4%B8%8EGC/"/>
+    <id>https://superver.github.io/wiki/blog/php/php_%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E4%B8%8EGC/</id>
+    <published>2020-01-10T13:28:59.000Z</published>
+    <updated>2020-05-05T04:10:59.208Z</updated>
+    
+    <content type="html"><![CDATA[<p>进行php扩展开发的时候会遇到一些问题，就是php用户态空间将变量传递到扩展层面<code>c层调用</code>的时候，会出现一些问题，下面的例子是一个timer定时器的例子。<br>用户空间会传递一个回调函数给<code>timer扩展接口</code>，那么实际回调函数被调用的地方是<code>c层</code>。但是该回调函数变量本身是由用户空间<code>申请</code>并交由php<code>内核gc管理</code>的，<br>如果扩展函数内不做任何操作，那么当切换到用户空间时php内核会判断该变量<code>需要回收</code>，然后扩展函数就会空指针异常等</p><p>当扩展函数内该php变量生命周期使用结束后，任然需要考虑<code>垃圾回收</code>的问题，并不是在扩展函数内简单<code>free(data)</code>就可以的，需要调用php内核引用计数接口等<br>进行变量的回收以及gc等，最后交由php内核gc管理。当然扩展函数内由c自行申请管理的内存可以自己释放</p><ul><li>扩展函数定义示例<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">PHP_METHOD(timer_obj,tick)</span><br><span class="line">&#123;</span><br><span class="line">    php_lib_timer_callback *fci = (php_lib_timer_callback *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(php_lib_timer_callback));</span><br><span class="line">    <span class="comment">//强制传入两个参数</span></span><br><span class="line">    ZEND_PARSE_PARAMETERS_START(<span class="number">2</span>, <span class="number">2</span>)</span><br><span class="line">    Z_PARAM_LONG(fci-&gt;seconds)</span><br><span class="line">    Z_PARAM_FUNC(fci-&gt;fci,fci-&gt;fcc)</span><br><span class="line">    ZEND_PARSE_PARAMETERS_END_EX(RETURN_FALSE);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">long</span> id = create_time_event(fci-&gt;seconds,tick,fci,del);</span><br><span class="line">    zend_fci_cache_persist(&amp;fci-&gt;fcc);</span><br><span class="line">    RETURN_LONG(id);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>扩展函数内执行php用户态回调函数示例<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">tick</span><span class="params">(<span class="keyword">long</span> <span class="keyword">long</span> id,<span class="keyword">void</span> *data)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    php_lib_timer_callback *fci = (php_lib_timer_callback *)data;</span><br><span class="line">    zval result;</span><br><span class="line">    fci-&gt;fci.retval = &amp;result;</span><br><span class="line">    <span class="keyword">if</span>(zend_call_function(&amp;fci-&gt;fci,&amp;fci-&gt;fcc) != SUCCESS)&#123;</span><br><span class="line">        <span class="keyword">return</span> NOMORE;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> fci-&gt;seconds;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="timer-中对回调函数变量进行引用计数-1"><a href="#timer-中对回调函数变量进行引用计数-1" class="headerlink" title="timer 中对回调函数变量进行引用计数+1"></a>timer 中对回调函数变量进行引用计数+1</h2>上面会发现timer::tick()函数在返回给用户空间时会做一个操作<code>zend_fci_cache_persist(&amp;fci-&gt;fcc);</code>，正是该调用<br>对传入的回调函数进行饮用计数管理，<code>告诉php内核该回调函数在c层会继续使用不用回收</code>。代码如下<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">zend_fci_cache_persist</span><span class="params">(zend_fcall_info_cache *fci_cache)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;object)</span><br><span class="line">    &#123;</span><br><span class="line">        GC_ADDREF(fci_cache-&gt;object);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;function_handler-&gt;op_array.fn_flags &amp; ZEND_ACC_CLOSURE)</span><br><span class="line">    &#123;</span><br><span class="line">        GC_ADDREF(ZEND_CLOSURE_OBJECT(fci_cache-&gt;function_handler));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><p>其中<code>GC_ADDREF（）</code>函数很明显就是内核GC相关的api。<code>fci_cache-&gt;function_handler</code> 则为用户传递的回调函数真正的变量地址</p><p>如上前奏后就可以在c扩展中放心的对用户传递的变量进行操作了</p><h2 id="timer-中结束后变量的Gc回收"><a href="#timer-中结束后变量的Gc回收" class="headerlink" title="timer 中结束后变量的Gc回收"></a>timer 中结束后变量的Gc回收</h2><p>上面有看到<code>php_lib_timer_callback</code>变量实际是自己定义的结构体，包括内存也是有开发者自己分配的，可以放心的<code>free</code>。但是该结构体中<br>指向的<code>fci.fcc</code> 则实际是php用户空间申请的变量，不能直接<code>free</code>,如果直接free，会引发php gc泄漏，如下警告所示:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; php timer.php</span><br><span class="line">/php/src/Zend/zend_closures.c(<span class="number">459</span>) :  Freeing <span class="number">0x00007fc084e6d480</span> (<span class="number">304</span> bytes), script=/timer.php</span><br><span class="line">=== Total <span class="number">1</span> memory leaks detected ===</span><br></pre></td></tr></table></figure><p>所以依然需要根据php内核GC的管理方式来处理用户空间的变量，也就是模拟用户空间那样对变量的管理：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">zend_fci_cache_discard</span><span class="params">(zend_fcall_info_cache *fci_cache)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;object) &#123;</span><br><span class="line">        OBJ_RELEASE(fci_cache-&gt;object);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;function_handler-&gt;op_array.fn_flags &amp; ZEND_ACC_CLOSURE) &#123;</span><br><span class="line">        OBJ_RELEASE(ZEND_CLOSURE_OBJECT(fci_cache-&gt;function_handler));</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">zend_fci_params_discard</span><span class="params">(zend_fcall_info *fci)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (fci-&gt;param_count &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">uint32_t</span> i;</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; fci-&gt;param_count; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            zval_ptr_dtor(&amp;fci-&gt;params[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        efree(fci-&gt;params);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在不需要使用的时候，也需要对回调函数本身进行减引用，以及回调函数内的用户态的参数进行减引用以及变量的回收。只有做完上面这些基本的管理才能<br>开发一个安全的扩展函数</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>总之用户空间申请的变量传递给扩展内函数使用，如果在返回给用户空间后依然会继续使用就要zval_copy或者引用计数+1,因为在返回给用户空间的时候本身用户空间gc会判断该变量是否有继续引用，否则就<code>refcount -= 1</code>，用户空间回收该变量，但是扩展函数内依然在访问该已经被销毁的变量。就会导致错误</p><p>只有将这些变量的引用与回收做好了才能开发出安全可靠的扩展函数</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;进行php扩展开发的时候会遇到一些问题，就是php用户态空间将变量传递到扩展层面&lt;code&gt;c层调用&lt;/code&gt;的时候，会出现一些问题，下面的例子是一个timer定时器的例子。&lt;br&gt;用户空间会传递一个回调函数给&lt;code&gt;timer扩展接口&lt;/code&gt;，那么实际回调函
+      
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="https://superver.github.io/categories/blog/"/>
+    
+      <category term="php" scheme="https://superver.github.io/categories/blog/php/"/>
+    
+    
+      <category term="linux" scheme="https://superver.github.io/tags/linux/"/>
+    
+      <category term="php" scheme="https://superver.github.io/tags/php/"/>
+    
+      <category term="c" scheme="https://superver.github.io/tags/c/"/>
+    
+      <category term="ext" scheme="https://superver.github.io/tags/ext/"/>
+    
+      <category term="refrerence" scheme="https://superver.github.io/tags/refrerence/"/>
+    
+      <category term="gc" scheme="https://superver.github.io/tags/gc/"/>
     
   </entry>
   

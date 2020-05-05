@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang=zh>
 <head>
     <meta charset="utf-8">
     
-    <title>Hexo</title>
+    <title>蔚泪卿&#39;s Wiki</title>
     
     
-        <meta name="keywords" content="Hexo" />
+        <meta name="keywords" content="蔚泪卿&#39;s Wiki" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+    <meta name="description" content="永远年轻，永远热泪盈眶">
+<meta property="og:type" content="website">
+<meta property="og:title" content="蔚泪卿&#39;s Wiki">
+<meta property="og:url" content="https://superver.github.io/index.html">
+<meta property="og:site_name" content="蔚泪卿&#39;s Wiki">
+<meta property="og:description" content="永远年轻，永远热泪盈眶">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Gemini">
 <meta name="twitter:card" content="summary">
     
 
     
-        <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml" />
+        <link rel="alternate" href="/atom.xml" title="蔚泪卿&#39;s Wiki" type="application/atom+xml" />
     
 
     
@@ -73,7 +75,7 @@
         <div class="outer">
             <a href="/" id="logo">
                 <i class="logo"></i>
-                <span class="site-title">Hexo</span>
+                <span class="site-title">蔚泪卿&#39;s Wiki</span>
             </a>
             <nav id="main-nav">
                 
@@ -92,14 +94,14 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -111,11 +113,11 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -147,7 +149,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
     </div>
 
                 </td>
@@ -162,12 +164,126 @@
                 <aside id="sidebar">
    
         
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>分类</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            blog
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            nginx
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/blog/nginx/nginx_php-fpm_%E9%85%8D%E7%BD%AE/">nginx模块配置</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            php
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/blog/php/php_%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E4%B8%8EGC/">php_引用计数与gc</a></li>  <li class="file"><a href="/wiki/blog/php/php_%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/">php_常用函数</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            life
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/life/%E7%94%9F%E6%B4%BB_%E6%84%9F%E6%82%9F/">life is long long journey</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/wiki/index/">【建强】wiki 集合</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
     
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
             <section id="main">
-        <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-index" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -179,8 +295,8 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/wiki/hello-world/">
-            <time datetime="2020-05-05T02:55:09.738Z" itemprop="datePublished">2020-05-05</time>
+        <a href="/wiki/index/">
+            <time datetime="2020-05-05T04:10:59.939Z" itemprop="datePublished">2020-05-05</time>
         </a>
     </div>
 
@@ -190,22 +306,12 @@
                             <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
                         
                         
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/hello-world.md' target="_blank" rel="noopener"> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/hello-world.md' target="_blank" rel="noopener"> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/hello-world.md' target="_blank" rel="noopener"> History </a>
-                            </div>
-                        
                     </div>
                 
                 
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/wiki/hello-world/">Hello World</a>
+        <h1 class="article-title" itemprop="name">
+            【建强】wiki 集合
         </h1>
     
 
@@ -216,38 +322,15 @@
         
         
             
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                
-                    
-                    <p><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        
+        
+            <h2 id="blog"><a href="#blog" class="headerlink" title="@blog"></a>@<a href="https://github.com/jianqiangsong/payment"><code>blog</code></a></h2><p>php版聚合支付</p>
+<h2 id="blog-1"><a href="#blog-1" class="headerlink" title="@blog"></a>@<a href="https://github.com/jianqiangsong/yii-important"><code>blog</code></a></h2><p>Yii框架干货集合</p>
+<h2 id="blog-2"><a href="#blog-2" class="headerlink" title="@blog"></a>@<a href="https://github.com/jianqiangsong/easy-tips"><code>blog</code></a></h2><p>php知识点集合 🐘</p>
+<ul>
+<li><a href="http://easy-tips.tigerb.cn"><code>A little Tips in my Code Career with PHP 🐘</code></a></li>
+</ul>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>
-                
-            
-        
-        
-            </div>   
-            <div class="article-more-link">
-                <a href="/wiki/hello-world/#more">Read More</a>
             </div>
         
         <footer class="article-footer">
@@ -256,25 +339,48 @@
 </article>
 
 
+    
+<nav id="article-nav">
+    
+        <a href="/wiki/blog/php/php_%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    php_常用函数
+                
+            </div>
+        </a>
+    
+    
+        <a href="/wiki/blog/php/php_%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E4%B8%8EGC/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">php_引用计数与gc</div>
+        </a>
+    
+</nav>
+
 
 
 
 
     
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+
+
 </section>
         </div>
         <footer id="footer">
     <div class="outer">
         <div id="footer-info" class="inner">
-            John Doe &copy; 2020 
-            <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
-            <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a href="https://github.com/zthxxx/hexo-theme-Wikitten" target="_blank" rel="noopener">wikitten</a>
-            
-                <br>
-                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
-                &nbsp;|&nbsp;
-                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
-            
+            Gemini &copy; 2020 
         </div>
     </div>
 </footer>
