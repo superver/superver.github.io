@@ -6,7 +6,7 @@
     <title>php_引用计数与gc | 蔚泪卿&#39;s Wiki</title>
     
     
-        <meta name="keywords" content="php,linux,c,ext,refrerence,gc" />
+        <meta name="keywords" content="linux,php,c,ext,refrerence,gc" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="进行php扩展开发的时候会遇到一些问题，就是php用户态空间将变量传递到扩展层面c层调用的时候，会出现一些问题，下面的例子是一个timer定时器的例子。用户空间会传递一个回调函数给timer扩展接口，那么实际回调函数被调用的地方是c层。但是该回调函数变量本身是由用户空间申请并交由php内核gc管理的，如果扩展函数内不做任何操作，那么当切换到用户空间时php内核会判断该变量需要回收，然后扩展函数就会">
@@ -19,8 +19,8 @@
 <meta property="article:published_time" content="2020-01-10T13:28:59.000Z">
 <meta property="article:modified_time" content="2020-05-05T04:10:59.208Z">
 <meta property="article:author" content="Gemini">
-<meta property="article:tag" content="php">
 <meta property="article:tag" content="linux">
+<meta property="article:tag" content="php">
 <meta property="article:tag" content="c">
 <meta property="article:tag" content="ext">
 <meta property="article:tag" content="refrerence">
